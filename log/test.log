@@ -1,0 +1,465 @@
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2018-03-31 01:09:58 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 257ms (Views: 246.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2018-03-31 01:09:58 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2018-03-31 01:13:33 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 189ms (Views: 180.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2018-03-31 01:13:33 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2018-03-31 01:15:17 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 194ms (Views: 184.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2018-03-31 01:15:17 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2018-03-31 01:16:28 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 190ms (Views: 178.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-03-31 01:16:28 -0400
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-03-31 01:17:59 -0400
+Processing by StaticPagesController#about as HTML
+Completed 406 Not Acceptable in 68ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-03-31 01:19:32 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 189ms (Views: 180.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2018-03-31 01:19:33 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2018-03-31 01:19:33 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-03-31 01:20:25 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 191ms (Views: 181.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2018-03-31 01:20:25 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2018-03-31 01:20:25 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2018-03-31 01:27:34 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb
+  Rendered static_pages/help.html.erb (0.8ms)
+Completed 200 OK in 17ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2018-03-31 01:32:25 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb
+  Rendered static_pages/help.html.erb (0.8ms)
+Completed 200 OK in 18ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2018-03-31 01:32:25 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-03-31 01:32:25 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb
+  Rendered static_pages/about.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2018-03-31 01:40:15 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 202ms (Views: 190.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-03-31 01:40:15 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2018-03-31 01:40:15 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_root
+-----------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-03-31 01:56:50 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 191ms (Views: 182.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2018-03-31 01:56:50 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-03-31 01:58:01 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 193ms (Views: 184.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2018-03-31 01:58:02 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2018-03-31 01:58:02 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-03-31 01:59:22 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 196ms (Views: 186.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2018-03-31 02:01:21 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 193ms (Views: 183.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-03-31 02:01:21 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-03-31 02:02:14 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 204ms (Views: 194.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2018-03-31 02:06:42 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 189ms (Views: 180.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2018-03-31 02:06:43 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "password_digest" varchar, "remember_digest" varchar, "admin" boolean, "activation_digest" varchar, "activated" boolean, "activated_at" datetime)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20180331225959)[0m
+  [1m[35m (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20180331071642),
+(20180331072325),
+(20180331072708),
+(20180331090801),
+(20180331223555);
+
+[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2018-04-01 00:44:55.838766"], ["updated_at", "2018-04-01 00:44:55.838766"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.4ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "admin", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('Michael Example', 'michael@example.com', '$2a$04$YbRX8oR03LzaCSBUvduL.eW23djMDz4cDT/PH3h37ES/WA1AH.d5m', 't', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 762146111)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('Sterling Archer', 'duchess@example.gov', '$2a$04$5Kvg9lH/0yUL6TgarrjZTeqzfkiYwDjyObB/Mwsr6PDkS5HwEj9km', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 950961012)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('Lana Kane', 'hands@example.gov', '$2a$04$epcIbxy3RlE13HMT.auC9.99PWDU4v6PBiP9Bs2zvZabwQ5NYE/nG', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 409608538)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('Malory Archer', 'boss@example.gov', '$2a$04$k2aLyQ51hhbDc0AlabAche9UfApsGAvBIvdFk5l7Wh.LVPBkPB7Gu', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 659682706)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 0', 'user-0@example.com', '$2a$04$3IW0qKZGeb.XyWbTxc1aXux6Njfu2iAck.uEh0BGKi4fLgBWYwmCq', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 338193910)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 1', 'user-1@example.com', '$2a$04$ZeBwis0SMZWUf8d7q2Jv1eKgM6FywkxxDLL6dEu2wED4t.KUvrLxi', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 590306657)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 2', 'user-2@example.com', '$2a$04$3bL3aTKRVKNrZnF9pTuMZeXP4sLBEYvq1Bff0UW6dvmYHcNApZ9Qa', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 975572189)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 3', 'user-3@example.com', '$2a$04$oX66IKwVntxr6DC1zIszzeg66lBEA/rCN1x7Xr3g.muuL0BZny3tS', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 220281934)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 4', 'user-4@example.com', '$2a$04$KcJvkuk6qkYvUETGBlfEPOlK7/nMkHnvDWiaAQVLgMBuHFammfrIS', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 323332591)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 5', 'user-5@example.com', '$2a$04$cTP3cA990jSc83U5EtXDXe99DpKagAnsl/2TRvB0OYM1shAtwUS8m', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 608344442)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 6', 'user-6@example.com', '$2a$04$tUAlyLAHmc/792oG27qmBedusSr/zk/lXl6WxsszcdVGoLyQ4Mcka', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 1028376774)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 7', 'user-7@example.com', '$2a$04$UXGgx9d3unWX1AAhn8c3gOLLaMUmeYYWmlQS/1PUcur1IrxXRQrF6', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 172816471)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 8', 'user-8@example.com', '$2a$04$/1sresXBTfLrU0ydLVUtyOuXAHQeRAZfcC99quj1ln9o0BaDWOeRG', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 452191684)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 9', 'user-9@example.com', '$2a$04$seevKYEYLXiQjkRTYrcvJedrOdpCUwUNp.y0DD6qTg4F7nWR38Rqy', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 771020115)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 10', 'user-10@example.com', '$2a$04$Cf2v87w5pXFoY.wPbNFSDe.jfoat.pSC8UXixYDbIHjGHCNliiNS2', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 956993830)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 11', 'user-11@example.com', '$2a$04$ryRj68OGlUY7O6kD12rjXexTmAsdsv.qXneN9e33TqRkQZwDxfvgW', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 235774389)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 12', 'user-12@example.com', '$2a$04$T5u./i4mjW8KkH3VYT2B6.IPj/Zmxw9HBspO263pvfcDANh2WEDF6', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 386199561)[0m
+  [1m[36mFixture Insert (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 13', 'user-13@example.com', '$2a$04$FnsYdKB31YnXvR/dsRLjsO45qFqLsc1s7fQ.aBgiP7fQvjtva0DwC', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 537116830)[0m
+  [1m[36mFixture Insert (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 14', 'user-14@example.com', '$2a$04$opceO/6Zm1JgPRzOxh/eT.BuOOuqQ6LshUnKSzROOMIyHsh/ZyeeK', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 1046959423)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 15', 'user-15@example.com', '$2a$04$iAfteqt4CKH7I0CEItk1POYu71h.aXN95TGp4gJIOVOynBQov5MOC', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 157312430)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 16', 'user-16@example.com', '$2a$04$/.QWOJo3bV5WIKoXDiZTbOPim.WNH0zuTFlEhto2UBS.tQn86r3w.', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 275330066)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 17', 'user-17@example.com', '$2a$04$zRIlqMa.hOmwsf50xEe5KOL0Dbiv3uv3zKJY263B1.oil2hHGeIi6', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 661521543)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 18', 'user-18@example.com', '$2a$04$XvMNwgraQW2LbsP8Y5TV/e99bwlntbrONklcDH6f2aN3mTQjKPesC', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 936450328)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 19', 'user-19@example.com', '$2a$04$Bcx97apio56WoMtxP36JieCs2OzNs5dn8CziP1Q/BJvZkcPbgDH0S', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 14035331)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 20', 'user-20@example.com', '$2a$04$avr7VVgtjnG4DFmIXGOsMuykscAPj/pRa5qDL1vmHF4qERxPXFKyy', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 304595689)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 21', 'user-21@example.com', '$2a$04$3uK36fhnVa306yPFwbCtT.hDdppFOmG02avkiXe4uTOl4jbaR3lOG', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 622916212)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 22', 'user-22@example.com', '$2a$04$QiwxzziEkE8RL7C8IL//aO7kQLKLeRGmAlRicbNWRFUto3bgxvj3m', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 1009361868)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 23', 'user-23@example.com', '$2a$04$2Cm7e.rTKb84BNiSljzN1OwhrlZJYrK354odM5wPrpUqcFhFtInMC', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 187601757)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 24', 'user-24@example.com', '$2a$04$XWStLBHfDfPszuMsaDbaP.sG6LesyPU6ETUgIStTBo/ApsodvdEzC', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 357172992)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 25', 'user-25@example.com', '$2a$04$/PDJKs5/DJzjJ5lCDUV8I.v1ArwUFNk523Xo2yZUEHRZ0.8WahbsG', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 575485547)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 26', 'user-26@example.com', '$2a$04$yU4.yYnUnV7zHTSvbPnjo.abEfz/q50K0wdQAlzJDRwwpleeRYl66', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 994338771)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 27', 'user-27@example.com', '$2a$04$OL.Me9NZFfdQta44rOtylOtjW36r5NTX8Ob.1IPeYgrGw6iGQoQYq', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 205739844)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 28', 'user-28@example.com', '$2a$04$Hfn2598ttru97TnUZCa/ZOW0XNq.dhst0oiwTbrclfGg3.8g0wxIm', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 486296279)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 29', 'user-29@example.com', '$2a$04$FiNja/RvN3apEAiLH35IAek0OI3XDf2S7VxDlHrmsutvJnzCMV6Uy', 't', '2018-04-01 00:44:55 UTC', '2018-04-01 00:44:55.987973', '2018-04-01 00:44:55.987973', 737901126)[0m
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------
+UserMailerTest: test_account_activation
+---------------------------------------
+UserMailer#account_activation: processed outbound mail in 0.5ms
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (1.0ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "admin", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('Michael Example', 'michael@example.com', '$2a$04$8MawMV/TcBWDkRb.WJQgxeO3JvBNbCFCemkB5GNcxQFaobeOMs6sO', 't', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 762146111)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('Sterling Archer', 'duchess@example.gov', '$2a$04$HfDUAM3b0xFMbbMuVmcgMeDnknMkcYAZvsfH.XEKVQJ6v4/ZvVLaS', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 950961012)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('Lana Kane', 'hands@example.gov', '$2a$04$KThQ8LWOGIy8.23Ol3OcJeiv7lRb6X59iQlrflX.MVlYXp.KUV9uq', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 409608538)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('Malory Archer', 'boss@example.gov', '$2a$04$P6f7jyR79EsLo3Waor3rvuWMfubf4Zo2LkuBvwK4hP2T4Wbae3TLe', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 659682706)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 0', 'user-0@example.com', '$2a$04$dUjuyx93BpPjVqJ3s91z6eikpdodXndPyrE8fJro13wcJeyYSklHK', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 338193910)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 1', 'user-1@example.com', '$2a$04$fgTubR3L1eY4SPFrfvstZ.pBLp2lSn0gOOLngYBBzUCon2Ap0crXW', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 590306657)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 2', 'user-2@example.com', '$2a$04$W1xr7BDERdYecM8TCE4DaucszZFmtBRY.ourKu98V2yvPfjyMYS7K', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 975572189)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 3', 'user-3@example.com', '$2a$04$jRU350D/gZzZ1p9ggio20ObNil8K/.Ol9in6wnKVIeAGXCecWSrzC', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 220281934)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 4', 'user-4@example.com', '$2a$04$wNFKvYq39lFbL/2qs5QEPe0y.1TOr9ha1Lh91NNkydafbTIDcdTIy', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 323332591)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 5', 'user-5@example.com', '$2a$04$FPycO.i6JZvN6zagNvMN2OuZ2KJKpEK0zUPyCGQy7dLqReZT8hDXy', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 608344442)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 6', 'user-6@example.com', '$2a$04$NGxmpGd57dD8mjT0V1gh/u4Y2QGNDjPzo4nOKGSEZ2QrKoyRazWy6', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 1028376774)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 7', 'user-7@example.com', '$2a$04$83nSdva8pkA1XXE22nn1uObo8OoatffINIdfYYZ949MeXBbqd4CrK', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 172816471)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 8', 'user-8@example.com', '$2a$04$q5IfBSZNgWtt2VHaUFPnlekQYjPZtArw4zy5RIWujR27TYGQ0K6OG', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 452191684)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 9', 'user-9@example.com', '$2a$04$.e2kyuMSVL.FXUPUxsUGte9/Zg9kl2iM8EUz/dCdEDYar5ZsaQnAC', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 771020115)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 10', 'user-10@example.com', '$2a$04$uvzHkDaTIeogRjQw0api/ud96MDi/QS/NVapd.371fRXSlOh92dAe', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 956993830)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 11', 'user-11@example.com', '$2a$04$YkAI98PIpLnBNvsO595nfeeauoq2RGnvI.NxtEBehJBFuFUcztOAq', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 235774389)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 12', 'user-12@example.com', '$2a$04$YvZBSykUnNcAMnjiSEo/TuAUkwT8jyTl.ls3faeCNaYEJ6QmcJhWC', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 386199561)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 13', 'user-13@example.com', '$2a$04$amxZ.vs2FvKP7qx4yrxYfu6X5SFnyNC83DZmdNYs9VqdEyyAUOxLa', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 537116830)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 14', 'user-14@example.com', '$2a$04$No8jZEYq1HDohmxpaKN1BeK3KJY1dQTzlwGOLpDXBiadHnJApZezW', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 1046959423)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 15', 'user-15@example.com', '$2a$04$IuOtJGpPOt0zuhWXMwg0m.yPRM/4jmebYgIiD2A8sHltekZaJ11UK', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 157312430)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 16', 'user-16@example.com', '$2a$04$6eu71Z.DZR8bv/M3TlvZ4.GQjDTlHHx4Cx2iv2u2Jzp5NzFkTCpxy', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 275330066)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 17', 'user-17@example.com', '$2a$04$8RBa..I8uByWZ3DbrIYipOUaUZaji3HN0XLq0ccuvivT5rh5osxza', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 661521543)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 18', 'user-18@example.com', '$2a$04$lAa9QM6sZKWtdAdAmIAOv.j5SjY3zPzYPlkXYD8J8G5trIKktl8ui', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 936450328)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 19', 'user-19@example.com', '$2a$04$SBTSmt3e21NdifMax37v7OJSEgddR3Z4nQPM6qCLtYo4oJ0ag9oBm', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 14035331)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 20', 'user-20@example.com', '$2a$04$9.DqH74c3MZCK6GbgTV.zebosTekN7EzaC9FWgp1oxm3h7m.M6yCC', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 304595689)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 21', 'user-21@example.com', '$2a$04$BpQySCk2/iFk8xGWEG5Aju7TfKmS5NnRpfL2T1guaWPWO32fQ6QpW', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 622916212)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 22', 'user-22@example.com', '$2a$04$PznMk8.2MtcGevrkFxuz1.Y8RUjAVY/U8tVl9Wlslkpa5LaTNfjfe', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 1009361868)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 23', 'user-23@example.com', '$2a$04$tw4z2ITJzAR9slu4gTyaOO/OOQRAbX5T7JdlwKtBkoho1h6H1h6/q', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 187601757)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 24', 'user-24@example.com', '$2a$04$sFY14dApBUFMVOkPUj0Q1uoCd2E0h.FxJPVFqYVYI1ffAw5bLtwe.', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 357172992)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 25', 'user-25@example.com', '$2a$04$sK2xa52qEejB8c7otXwDBec6nLRWZo9KcnBiwgLi0AScuU6qUc4kG', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 575485547)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 26', 'user-26@example.com', '$2a$04$/bPLthHZFDDrEqyJh5U9QOFMz1taaWF6mKwkPKUe07ob1LFjoYB8K', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 994338771)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 27', 'user-27@example.com', '$2a$04$qX0dygvOgBP5zQY9kNvo3OphF8G6n.asU2Xykt9XU3eP7XAZ2.YxS', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 205739844)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 28', 'user-28@example.com', '$2a$04$fh537DGqQO0bYiV4qDqol.czxtmDaUPBrLFuFEZbhjjdeETMJ1M0y', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 486296279)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 29', 'user-29@example.com', '$2a$04$TzHhZRGGhIps0aVB3Dv64uT7DPaT4qUC94VV4vhcoaLTqByeJ5E/a', 't', '2018-04-01 00:47:15 UTC', '2018-04-01 00:47:15.258270', '2018-04-01 00:47:15.258270', 737901126)[0m
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------
+UserMailerTest: test_account_activation
+---------------------------------------
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 762146111], ["LIMIT", 1]]
+  Rendering user_mailer/account_activation.html.erb within layouts/mailer
+  Rendered user_mailer/account_activation.html.erb within layouts/mailer (0.9ms)
+  Rendering user_mailer/account_activation.text.erb within layouts/mailer
+  Rendered user_mailer/account_activation.text.erb within layouts/mailer (0.2ms)
+UserMailer#account_activation: processed outbound mail in 26.0ms
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
